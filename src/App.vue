@@ -104,7 +104,7 @@ export default {
     },
     add() {
       axios({
-        url: "http://localhost:8080/add",
+        url: "http://121.43.231.76:8080/add",
         method: "POST",
         data: this.newStudents
       })

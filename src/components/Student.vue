@@ -62,7 +62,7 @@ export default {
     update(){
       this.$parent.getStudents();
       axios({
-        url:"http://localhost:8080/update",
+        url:"http://121.43.231.76:8080/update",
         method:"POST",
         data:this.student,
       });
@@ -72,7 +72,7 @@ export default {
     },
     remove(){
       axios({
-        url:"http://localhost:8080/delete",
+        url:"http://121.43.231.76:8080/delete",
         method:"POST",
         data: this.student
       })

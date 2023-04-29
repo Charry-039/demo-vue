@@ -79,7 +79,7 @@ export default {
   }, data() {
     return {
       students: [],
-      axios: axios.get("http://localhost:8080/students"),
+      axios: axios.get("http://121.43.231.76:8080/students"),
       dialogVisible: false,
       currentPage: 1,
       newStudents: {
